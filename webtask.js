@@ -21,8 +21,8 @@ const client = require('twilio@2.2.1')(accountSid, authToken);
 
 client.messages
   .create({
-    to: '+19545405616',
-    from: '+19546377270',
+    to: '+1954540XXXX',
+    from: '+1954637XXXX',
     body: quotes[randomNum],
   })
   .then((message) => console.log(message.sid));
